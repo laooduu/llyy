@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <div>
-      Hello World Markus
+      Hello World Markus - RAG Chat
       </div>
     </main>
   );
