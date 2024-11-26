@@ -7,8 +7,12 @@ import { ChatInput } from "./ChatInput";
 export const ChatWrapper = ({ sessionId, initialMessages }: { sessionId: string, initialMessages: Message[] }) => {
     const { messages, handleInputChange, handleSubmit, input, setInput } = useChat({
         api: "/api/chat-stream",
-        body: { sessionId }
+        body: { sessionId },
+        initialMessages
     });
+
+    console.log(initialMessages);
+
     return (
         <div className="relative min-h-full bg-zinc-900 flex divided-y divided-zinc-700 flex-col justify-between gap-2  ">
             <div className="flex-1 text-black bg-zinc-800 justify-between flex flex-col">
