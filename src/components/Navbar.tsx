@@ -20,8 +20,16 @@ const routeList: RouteProps[] = [
 		label: "Home",
 	},
 	{
-		href: "#team",
-		label: "Team",
+		href: "#mathematics",
+		label: "Mathematics",
+	},
+	{
+		href: "#aiworks",
+		label: "AI Works",
+	},
+	{
+		href: "#bigdata",
+		label: "Big Data",
 	},
 	{
 		href: "#testimonials",
