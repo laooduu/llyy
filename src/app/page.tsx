@@ -1,11 +1,11 @@
-// import Image from "next/image";
+import { Hero } from "@/components/Hero";
+import { Pricing } from "@/components/Pricing";
 
 export default function Home() {
-  return (
-    <main>
-      <div>
-      Hello World Markus - RAG Chat
-      </div>
-    </main>
-  );
+	return (
+		<main>
+			<Hero />
+			<Pricing />
+		</main>
+	);
 }
